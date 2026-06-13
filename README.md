@@ -1,15 +1,42 @@
-# 🤖 Telegram Bot: Multimodal Gemini + Groq STT
+# 🤖 Telegram Bot: Advanced Multimodal AI Assistant
 
-Ko'p funksiyali Telegram bot - matn, rasm, hujjat va ovozli xabarlar bilan ishlaydi. Google Gemini 1.5 Flash va Groq Whisper-large-v3 asosida qurilgan.
+Enterprise-darajali Telegram bot - Gemini 1.5 Flash AI, Groq Whisper STT, RAG knowledge base va ko'plab advanced funksiyalar bilan.
 
-## ✨ Imkoniyatlari
+## ✨ Asosiy Imkoniyatlar
 
-- 💬 **Matn suhbatlari** - Gemini AI bilan suhbatlashish
-- 🖼️ **Rasm tahlili** - Rasmlarni ko'rish va tahlil qilish (Vision)
-- 📄 **PDF hujjatlar** - PDF fayllarni o'qish va tahlil qilish
-- 🎤 **Ovozli xabarlar** - Ovozni matnga aylantirish (STT) va javob berish
-- 💾 **Suhbat tarixi** - Har bir foydalanuvchi uchun kontekstni saqlash
-- 📊 **Statistika** - Foydalanish statistikasini ko'rish
+### 🧠 AI Xizmatlari
+- 💬 **Multimodal Chat** - Gemini 1.5 Flash bilan intelligent suhbatlar
+- 🖼️ **Vision AI** - Rasmlarni tahlil qilish va tushuntirish
+- 📄 **Document Analysis** - PDF va boshqa hujjatlarni o'qish
+- 🎤 **Speech-to-Text** - Groq Whisper-large-v3 bilan ovozni matnga
+- 🌐 **Translation** - Kontekstli ko'p tilli tarjima (10+ til)
+- 📝 **Summarization** - Matnlarni qisqartirish va asosiy fikrlarni ajratish
+- 🎬 **YouTube Analysis** - Video tahlili va content suggestions
+
+### 💎 Foydalanuvchi Tajribasi
+- ⌨️ **Inline Keyboards** - Qulay button va menu tizimi
+- 🌍 **Multi-language** - O'zbek, Rus, Ingliz tillari
+- 🎨 **AI Personality** - Turli xil AI shaxsiyatlari (rasmiy, do'stona, professional)
+- 📏 **Response Length** - Javob uzunligini sozlash (qisqa/o'rtacha/batafsil)
+- ⭐ **Bookmarks** - Muhim xabarlarni saqlash va tag qo'shish
+- 💾 **Chat History** - Har bir foydalanuvchi uchun kontekst saqlash
+
+### 📊 Data Management
+- 📥 **Export** - Suhbatni PDF, JSON, TXT formatda eksport qilish
+- 📤 **Import** - Oldingi suhbatlarni yuklash
+- 📈 **Analytics** - Foydalanuvchi statistikasi va ko'rsatkichlar
+- 🗃️ **RAG System** - Document library va knowledge base
+
+### 👨‍💼 Admin Panel
+- 📢 **Broadcasting** - Barcha foydalanuvchilarga xabar yuborish
+- 👥 **User Management** - Foydalanuvchilar ro'yxati va statistika
+- 📊 **Dashboard** - Real-time monitoring va analytics
+- 🗂️ **Logs** - Tizim loglari va xatolarni kuzatish
+
+### ⚡ Performance
+- 🚀 **Caching** - Redis/in-memory cache tezlik uchun
+- 🔄 **Rate Limiting** - API limitlarni boshqarish
+- 🎯 **Optimization** - Tezkor javob va past latency
 
 ## 🏗️ Arxitektura
 
@@ -104,19 +131,48 @@ python main.py
 
 ## 🎯 Foydalanish
 
-### Komandalar
+### Asosiy Komandalar
 
-- `/start` - Botni ishga tushirish va yordam
+- `/start` - Botni ishga tushirish va asosiy menyu
 - `/clear` - Suhbat tarixini tozalash
-- `/stats` - Statistikani ko'rish
+- `/stats` - Shaxsiy statistika
+- `/settings` - Sozlamalar (til, AI personality, etc.)
+- `/export` - Suhbatni export qilish
+- `/bookmarks` - Saqlangan xabarlar
+- `/admin` - Admin panel (faqat adminlar uchun)
+- `/help` - Yordam va qo'llanma
 
-### Qo'llab-quvvatlanadigan xabar turlari
+### Qo'llab-quvvatlanadigan Funksiyalar
 
-1. **Matn** - Oddiy matn xabarlarini yuboring
-2. **Rasm** - Rasm yuboring (caption qo'shishingiz mumkin)
-3. **PDF** - PDF hujjat yuboring (caption qo'shishingiz mumkin)
-4. **Ovoz** - Ovozli xabar yuboring (avtomatik transkripsiya)
-5. **Audio** - Audio fayl yuboring (transkripsiya bilan)
+#### 💬 Matn Xabarlari
+- Oddiy suhbat
+- Tarjima: "Translate to English: [matn]"
+- Xulosalash: "Summarize: [uzun matn]"
+- YouTube: "Analyze video: [URL]"
+- RAG: "Ask from my documents: [savol]"
+
+#### 🖼️ Rasm Tahlili
+- Rasm yuboring + caption (yoki faqat rasm)
+- Automatik tahlil va tushuntirish
+- Kontekstli savol-javob
+
+#### 📄 Hujjatlar
+- PDF fayllarni yuklang
+- Avtomatik mazmun tahlili
+- RAG knowledge base ga qo'shish
+
+#### 🎤 Ovoz va Audio
+- Ovozli xabar yuboring
+- Audio fayl yuklang
+- Avtomatik transkripsiya
+- Til aniqlash
+
+#### ⚙️ Sozlamalar
+- 🌐 Til tanlash (O'zbek/Rus/Ingliz)
+- 🤖 AI personality (Rasmiy/Do'stona/Professional/Kulgili)
+- 📏 Javob uzunligi (Qisqa/O'rtacha/Batafsil)
+- ⭐ Bookmarks boshqaruvi
+- 📥 Export (PDF/JSON/TXT)
 
 ## 🛠️ Texnologiyalar
 

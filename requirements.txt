@@ -8,9 +8,18 @@ groq==0.11.0
 # Image Processing
 Pillow==10.4.0
 
+# PDF Generation
+reportlab==4.0.7
+
+# Caching (optional)
+redis==5.0.1
+
 # Environment Variables
 python-dotenv==1.0.1
 
 # Async Support
 aiohttp==3.10.5
 aiofiles==24.1.0
+
+# Data Processing
+numpy==1.26.2
