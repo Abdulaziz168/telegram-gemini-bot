@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Rus tili va O'yinlar</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="who"><span class="avatar" id="avatar">🙂</span><span id="hello">Salom!</span></div>
+    <div class="chips"><span class="chip" id="chip-streak">🔥 0</span><span class="chip" id="chip-points">⭐ 0</span></div>
+  </header>
+
+  <main id="app"></main>
+
+  <nav class="tabbar" id="tabbar">
+    <button data-act="tab" data-tab="home"><span>🏠</span>Bosh</button>
+    <button data-act="tab" data-tab="ru"><span>📖</span>Rus tili</button>
+    <button data-act="tab" data-tab="games"><span>🎮</span>O'yinlar</button>
+    <button data-act="tab" data-tab="profile"><span>👤</span>Profil</button>
+  </nav>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
